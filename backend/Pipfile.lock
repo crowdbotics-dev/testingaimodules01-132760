@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "151aabedd26d155af66b356b584c09658f1a51fd72890f04aabf213650367413"
+            "sha256": "0abb68ce03aa6e49098526970c186382437b3634e7e4f3ea9fbdca5debb474f9"
         },
         "pipfile-spec": 6,
         "requires": {
@@ -335,6 +335,10 @@
             ],
             "index": "pypi",
             "version": "==3.3.6"
+        },
+        "django-paypal-integration": {
+            "editable": true,
+            "path": "./modules/django_paypal_integration"
         },
         "django-storages": {
             "hashes": [
@@ -699,6 +703,13 @@
             "index": "pypi",
             "version": "==23.2"
         },
+        "paypalrestsdk": {
+            "hashes": [
+                "sha256:a3f51616ee8f6d975a5a5a8c2049db63653c843479c8fdd71c9d588a31e14560",
+                "sha256:dac236492a9ac1260a760014a2e56ab38b09d8143295b5e896545359b61fedd6"
+            ],
+            "version": "==1.13.3"
+        },
         "pillow": {
             "hashes": [
                 "sha256:0462b1496505a3462d0f35dc1c4d7b54069747d65d00ef48e736acda2c8cbdff",
@@ -865,6 +876,14 @@
             ],
             "markers": "python_version >= '3.7'",
             "version": "==2.8.0"
+        },
+        "pyopenssl": {
+            "hashes": [
+                "sha256:6aa33039a93fffa4563e655b61d11364d01264be8ccb49906101e02a334530bf",
+                "sha256:ba07553fb6fd6a7a2259adb9b84e12302a9a8a75c44046e8bb5d3e5ee887e3c3"
+            ],
+            "markers": "python_version >= '3.7'",
+            "version": "==24.0.0"
         },
         "pytest": {
             "hashes": [
